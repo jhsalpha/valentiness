@@ -141,7 +141,11 @@ const messages = [
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  });
     title.textContent = "lollll";
 
     catImg.src = "gif.gif";
