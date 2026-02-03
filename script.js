@@ -97,7 +97,7 @@ noBtn.addEventListener("click", () => {
 
 if(count===1){
     const messages = [
-        "are you suree 🥺",
+        "are you sure 🥺",
       ];
       
       const randomMsg = messages[Math.floor(Math.random() * messages.length)];
@@ -119,7 +119,7 @@ if(count===1){
 yesScale += 1.4;
 count = count + 1;
 const messages = [
-    "try againnn",
+    "try againnn..",
     "coba lg lol 💔"
   ];
   
